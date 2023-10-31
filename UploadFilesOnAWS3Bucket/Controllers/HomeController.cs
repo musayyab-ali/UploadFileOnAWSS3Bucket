@@ -31,7 +31,7 @@ namespace UploadFilesOnAWS3Bucket.Controllers
         [HttpPost]
         public async Task<IActionResult> uploadFileS3(IFormFile file)
         {
-            var credentials = new BasicAWSCredentials("AKIA5Z4N3Y234A32CAHI", "l8r+teSnmAjiZfvf2cxEm4RsS5lVFkXIS3DNj4Oe");
+            var credentials = new BasicAWSCredentials("update with your access key", "update with your secret key");
             var config = new AmazonS3Config
             {
                 RegionEndpoint = RegionEndpoint.USEast1 // Replace with your appropriate region
@@ -46,7 +46,7 @@ namespace UploadFilesOnAWS3Bucket.Controllers
                     {
                         InputStream = memorystream,
                         Key = file.FileName,
-                        BucketName = "hms-site",
+                        BucketName = "update with your backet name",
                         ContentType = file.ContentType,
                     };
                     var transferUtility = new TransferUtility(amazonclient);
@@ -76,7 +76,7 @@ namespace UploadFilesOnAWS3Bucket.Controllers
         [HttpPost]
         public async Task<IActionResult> DeleteFileToS3(string fileName)
         {
-            var credentials = new BasicAWSCredentials("AKIA5Z4N3Y234A32CAHI", "l8r+teSnmAjiZfvf2cxEm4RsS5lVFkXIS3DNj4Oe");
+            var credentials = new BasicAWSCredentials("update with your access key", "update with your secret key");
             var config = new AmazonS3Config
             {
                 RegionEndpoint = RegionEndpoint.USEast1 // Replace with your appropriate region
@@ -87,7 +87,7 @@ namespace UploadFilesOnAWS3Bucket.Controllers
                 var transferUtility = new TransferUtility(amazonclient);
                 await transferUtility.S3Client.DeleteObjectAsync(new DeleteObjectRequest()
                 {
-                    BucketName = "hms-site",
+                    BucketName = "update with your backet name",
                     Key = fileName,
                 });
 
