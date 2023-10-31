@@ -1,0 +1,14 @@
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.csproj.AssemblyReference.cache
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.AssemblyInfoInputs.cache
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.AssemblyInfo.cs
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.csproj.CoreCompileInputs.cache
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\bin\Debug\net6.0\S3.Repository.deps.json
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\bin\Debug\net6.0\S3.Repository.runtimeconfig.json
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\bin\Debug\net6.0\S3.Repository.dll
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\bin\Debug\net6.0\S3.Repository.pdb
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.dll
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\refint\S3.Repository.dll
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.pdb
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\S3.Repository.genruntimeconfig.cache
+D:\Vs Projects\UploadFilesOnAWS3Bucket\S3.Repository\obj\Debug\net6.0\ref\S3.Repository.dll

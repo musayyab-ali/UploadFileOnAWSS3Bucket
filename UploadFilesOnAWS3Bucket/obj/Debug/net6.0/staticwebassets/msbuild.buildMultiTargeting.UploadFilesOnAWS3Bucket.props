@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UploadFilesOnAWS3Bucket.props" />
+</Project>

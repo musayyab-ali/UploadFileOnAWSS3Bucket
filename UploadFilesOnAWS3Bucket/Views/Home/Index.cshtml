@@ -1,0 +1,40 @@
+﻿@using S3.Repository;
+@model List<S3FileModel>
+
+<form enctype="multipart/form-data" method="post" asp-controller="Home" asp-action="uploadFileS3">
+
+    <dl>
+        <dt style="margin-bottom:20px;">
+            <label>Upload File To Aws S3 Bucket</label>
+        </dt>
+        <dd>
+            <input type="file" name="file" id="file" />
+        </dd>
+    </dl>
+    <input class="btn btn-outline-success" type="submit" value="Upload File" />
+</form>
+<br />
+
+<h4>List Of Uploaded File In S3 Bucket</h4>
+<br />
+<table class="table table-bordered" style="background:black;color:white;">
+    <tr>
+        <td>File Name</td>
+        <td>Created Date</td>
+        <td>Action</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FileName</td>
+            <td>@item.CreatedDate</td>
+
+
+            <td>
+                <a asp-action="ViewFileForDownload" asp-route-id="@item.Id">Download</a>
+                <a asp-action="DeleteFile" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+
+    }
+</table>
